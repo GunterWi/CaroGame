@@ -20,8 +20,6 @@ Hiện tại game và giao diện khá là đơn giản.
 Hướng dẫn setup:
 
 **Bên Server**
-
-- File Server [https://github.com/GunterWi/ServerCaro](https://github.com/GunterWi/ServerCaro)
   
 - Cài SQL ( hiện tại mình đang dùng SQLServer) và IDE là Netbean 17
 - Thêm thư viện [lib](lib) (Thêm thư viện KGradientPanel )
@@ -29,7 +27,6 @@ Hướng dẫn setup:
 - Chạy Server [src/controller/RunServer.java](CaroServer/src/controller/RunServer.java)
 
 **Bên Client**
-- File Client [https://github.com/GunterWi/ClientCaro](https://github.com/GunterWi/ClientCaro)
 
 - Vào SocketHandler [src/controller/SocketHandler.java](CaroClient/src/controller/SocketHandler.java) (đổi IP lại)
 - Chạy Client [src/controller/RunClient.java](CaroClient/src/controller/RunClient.java)

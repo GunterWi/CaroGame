@@ -25,12 +25,12 @@ Hướng dẫn setup:
   
 - Cài SQL ( hiện tại mình đang dùng SQLServer) và IDE là Netbean 17
 - Thêm thư viện [lib](lib) (Thêm thư viện KGradientPanel )
-- Thêm cơ sở dữ liệu [src/database/Caro_SQL.sql](src/database/Caro_SQL.sql) ( port mặc định sql là 1433, mặc định tên database là Account)
-- Chạy Server [src/controller/RunServer.java](src/controller/RunServer.java)
+- Thêm cơ sở dữ liệu [src/database/Caro_SQL.sql](CaroServer/src/database/Caro_SQL.sql) ( port mặc định sql là 1433, mặc định tên database là Account)
+- Chạy Server [src/controller/RunServer.java](CaroServer/src/controller/RunServer.java)
 
 **Bên Client**
 - File Client [https://github.com/GunterWi/ClientCaro](https://github.com/GunterWi/ClientCaro)
 
-- Vào SocketHandler [src/controller/SocketHandler.java](src/controller/SocketHandler.java) (đổi IP lại)
-- Chạy Client [src/controller/RunClient.java](src/controller/RunClient.java)
+- Vào SocketHandler [src/controller/SocketHandler.java](CaroClient/src/controller/SocketHandler.java) (đổi IP lại)
+- Chạy Client [src/controller/RunClient.java](CaroClient/src/controller/RunClient.java)
 
